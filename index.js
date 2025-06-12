@@ -14,7 +14,6 @@ const client = new Client({
 
 const distube = new DisTube(client, {
   emitNewSongOnly: true,
-  volume: 50, // ✅ Volume par défaut à 50%
   plugins: [new YtDlpPlugin()]
 });
 
