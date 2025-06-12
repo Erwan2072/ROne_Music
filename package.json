@@ -1,0 +1,29 @@
+{
+  "name": "rone_music",
+  "version": "1.0.0",
+  "description": "bot discord music",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erwan2072/ROne_Music.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erwan2072/ROne_Music/issues"
+  },
+  "homepage": "https://github.com/Erwan2072/ROne_Music#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.18.0",
+    "@distube/yt-dlp": "^2.0.1",
+    "discord.js": "^14.19.3",
+    "distube": "^5.0.7",
+    "dotenv": "^16.5.0"
+  }
+}
